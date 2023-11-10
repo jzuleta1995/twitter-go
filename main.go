@@ -16,7 +16,7 @@ import (
 	sm "twitter_go/secretmanager"
 )
 
-func main() {
+func Main() {
 	lambda.Start(Execute)
 }
 
