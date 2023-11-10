@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"fmt"
 	"os"
 	"strings"
 	"twitter_go/handlers"
@@ -17,6 +18,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Starting main execution :D")
 	lambda.Start(Execute)
 }
 
